@@ -14,4 +14,6 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## Videor
 
-Scrimba-kurs: https://scrimba.com/learn/introhtmlcss
+HTML & CSS crash course: https://scrimba.com/learn/introhtmlcss
+
+Flexbox: https://scrimba.com/learn/flexbox
