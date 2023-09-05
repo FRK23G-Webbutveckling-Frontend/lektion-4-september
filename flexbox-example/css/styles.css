@@ -1,0 +1,28 @@
+body {
+    width: 100vw; /** Ta upp hela bredden av webbläsarfönstret */
+    height: 100vh; /** Ta upp hela höjden av webbläsarfönstret */
+    margin: 0;
+}
+
+.flex-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    border: 2px solid darkred;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+}
