@@ -2,6 +2,9 @@ body {
     width: 100vw; /** Ta upp hela bredden av webbläsarfönstret */
     height: 100vh; /** Ta upp hela höjden av webbläsarfönstret */
     margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .flex-container {
@@ -25,4 +28,24 @@ body {
 
 .text {
     color: white;
+}
+
+.form {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #9922ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-bottom: auto;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+.button {
+    margin-top: auto;
 }
